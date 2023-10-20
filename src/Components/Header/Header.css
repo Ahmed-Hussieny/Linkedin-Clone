@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.Header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgray;
+    align-items: center;
+    /* padding: 10px 0px; */
+    width: 100%;
+    background-color: white;
+}
+.header_left{
+    display: flex;
+}
+.header_Search{
+    padding: 10px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px ;
+    height: 25px;
+    /* width: 180px; */
+    color: gray;
+    background-color: #eef3f8;
+}
+.header_Search > input{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.header_right{
+    display: flex;
+}

@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  background-color: #f3f2ef;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app_body {
+ display: flex;
+ margin-top: 35px;
+ width: 80%;
+ margin-left: 20px;
+ margin-right: 20px;
+ justify-content: center;
+
+}
+
+.widgits_article{
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+.widgits_article:hover{
+  background-color: whitesmoke;
+}
+.widget_Articleleft{
+  color: #0177b7;
+  margin-right: 5px;
+}
+.widget_Articleleft > .MultiSvgIcon-root{
+  font-size: 15px;
+}
+.widget_Articleright{
+  flex: 1;
+}
+.widget_Articleright > h4{
+  font-size: 14px;
+}
+.widget_Articleright > p{
+  font-size: 12px;
+  color: grey;
+}
